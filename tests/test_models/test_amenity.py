@@ -54,7 +54,7 @@ class test_Amenity_BaseModel(unittest.TestCase):
             instance = Amenity()
             self.assertEqual(type(instance), Amenity)
             instance.name = "Barbie"
-            expectec_attrs_types = {
+            expected_attrs_types = {
                     "id": str,
                     "created_at": datetime,
                     "updated_at": datetime,
